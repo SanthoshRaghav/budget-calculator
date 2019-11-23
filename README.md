@@ -2,7 +2,7 @@
 
 ## Project Creation
 
-- Create a Project.
+- Create a Project :beers:.
 - ```bash
   npx degit sveltejs/template budget-calculator
   ```
