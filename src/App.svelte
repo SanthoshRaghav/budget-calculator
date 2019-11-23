@@ -1,6 +1,4 @@
-<script>
-  export let name;
-</script>
+<script></script>
 
 <h1>Hi!...</h1>
 
