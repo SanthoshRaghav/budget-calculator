@@ -1,6 +1,17 @@
-<script></script>
+<script>
+    //components
+    import Navbar from './Navbar.svelte';
+    import Title from './Title.svelte';
 
-<h1>Hi!...</h1>
-<div class="fas fa-home fa-5x"></div>
+    //data
+    import expenseData from './expenses';
+
+    //variables
+    let expenses=[...expenseData];
+    console.log(expenses);
+</script>
 
 <style></style>
+
+<Navbar/>
+<Title title="add expenses"/>
