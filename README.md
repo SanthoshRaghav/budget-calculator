@@ -44,15 +44,53 @@
    import expensesData from "expenses";
    ```
 3. import statements from ES6
+
    1. importing a component with in the current folder.
+
    ```js
    import component from "./component.svelte";
    ```
+
    2. importing a component outside the current folder.
+
    ```js
    import component from "../component.svelte";
    ```
+
    3. importing a "packages" from node modules folder.
+
    ```js
    import package from "packageName";
    ```
+
+   4. Don't import props using const keyword :beetle: use "let" keyword
+
+   ```js
+   export const title = "Default title";
+   ```
+
+   5. Ways to send props
+
+      ![Drag Racing](./public/images/expense.png)
+
+      1. Sending props normally....
+
+         ![Drag Racing](./public/images/sending-props-normally.png)
+
+         #### we can receive props two ways...
+
+         1. Normal way...
+
+            ![Drag Racing](./public/images/normal.png)
+
+         1. Destructing way...
+
+            ![Drag Racing](./public/images/destructing.png)
+
+      2. Spreading props and sending....
+
+         ![Drag Racing](./public/images/spreading-and-sending-props.png)
+
+         1. Receiving way...
+
+            ![Drag Racing](./public/images/spreading-and-sending-props-and-receiving.png)

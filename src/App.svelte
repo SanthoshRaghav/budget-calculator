@@ -2,6 +2,7 @@
     //components
     import Navbar from './Navbar.svelte';
     import Title from './Title.svelte';
+    import ExpensesList from './ExpensesList.svelte';
 
     //data
     import expenseData from './expenses';
@@ -14,4 +15,6 @@
 <style></style>
 
 <Navbar/>
-<Title title="add expenses"/>
+<main class="content">
+    <ExpensesList {expenses}/>
+</main>
