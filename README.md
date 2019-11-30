@@ -69,28 +69,42 @@
    export const title = "Default title";
    ```
 
-   5. Ways to send props
+4. Ways to send props
 
-      ![Drag Racing](./public/images/expense.png)
+   ![Drag Racing](./public/images/expense.png)
 
-      1. Sending props normally....
+   1. Sending props normally....
 
-         ![Drag Racing](./public/images/sending-props-normally.png)
+      ![Drag Racing](./public/images/sending-props-normally.png)
 
-         #### we can receive props two ways...
+      #### we can receive props two ways...
 
-         1. Normal way...
+      1. Normal way...
 
-            ![Drag Racing](./public/images/normal.png)
+         ![Drag Racing](./public/images/normal.png)
 
-         1. Destructing way...
+      1. Destructing way...
 
-            ![Drag Racing](./public/images/destructing.png)
+         ![Drag Racing](./public/images/destructing.png)
 
-      2. Spreading props and sending....
+   2. Spreading props and sending....
 
-         ![Drag Racing](./public/images/spreading-and-sending-props.png)
+      ![Drag Racing](./public/images/spreading-and-sending-props.png)
 
-         1. Receiving way...
+      1. Receiving way...
 
-            ![Drag Racing](./public/images/spreading-and-sending-props-and-receiving.png)
+         ![Drag Racing](./public/images/spreading-and-sending-props-and-receiving.png)
+
+5. Sending function as a prop (Parent to child)
+
+   1. Parent Component
+
+      ![Drag Racing](./public/images/spreading-and-sending-props-and-receiving.png)
+
+   2. Child Component (ExpenseList.svelte component)
+
+      ![Drag Racing](./public/images/sending-function-as-a-prop-in-Expense-and-calling.png)
+
+   3. Child Component (Expense.svelte component)
+
+      ![Drag Racing](./public/images/sending-function-as-a-prop-in-Expense-and-calling.png)

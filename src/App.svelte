@@ -9,12 +9,16 @@
 
     //variables
     let expenses=[...expenseData];
-    console.log(expenses);
+
+    //functions
+    function removeExpense(id){
+        expenses=expenses.filter(item=>item.id!==id)
+    }
 </script>
 
 <style></style>
 
 <Navbar/>
 <main class="content">
-    <ExpensesList {expenses}/>
+    <ExpensesList {expenses} {removeExpense}/>
 </main>
