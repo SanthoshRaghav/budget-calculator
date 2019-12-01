@@ -108,3 +108,13 @@
    3. Child Component (Expense.svelte component)
 
       ![Drag Racing](./public/images/sending-function-as-a-prop-in-Expense-and-calling.png)
+
+6. Context API
+
+   1. setContext
+
+      ![Drag Racing](./public/images/setcontext.png)
+
+   1. getContext
+
+      ![Drag Racing](./public/images/getcontext.png)

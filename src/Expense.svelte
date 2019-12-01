@@ -1,9 +1,11 @@
 <script>
+  //packages
+  import { getContext } from "svelte";
+
   //props
   export let id;
   export let name = "";
   export let amount = 0;
-  export let removeExpense;
 
   //varibales
   let showAmount = false;
@@ -12,6 +14,9 @@
   function toggleAmmount() {
     showAmount = !showAmount;
   }
+
+  //context api
+  let removeExpense = getContext("remove");
 </script>
 
 <article class="single-expense">
