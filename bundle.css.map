@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../src/ExpensesList.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  //components\n  import Title from \"./Title.svelte\";\n  import Expense from \"./Expense.svelte\";\n\n  //props\n  export let expenses=[];\n</script>\n\n<style>\n  h2{\n    text-transform: capitalize;\n  }\n</style>\n\n<section>\n    <Title title=\"expense list\" />\n    <ul>\n      {#each expenses as expense,index}\n        <Expense {...expense} />\n          {:else}\n        <h2>currently you have no expenses</h2>\n      {/each}\n    </ul>\n</section>"
+  ],
+  "names": [],
+  "mappings": "AAUE,iBAAE,CAAC,AACD,cAAc,CAAE,UAAU,AAC5B,CAAC"
+}
